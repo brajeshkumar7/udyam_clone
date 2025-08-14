@@ -44,7 +44,7 @@ It includes:
 - **Real-time validation** for Aadhaar & PAN formats  
 - **Dynamic rendering** of form fields from scraped schema  
 - **Progress tracker** for step navigation  
-- **Optional PIN code-based city/state autofill**  
+- **PIN code-based city/state autofill**
 - **Full responsiveness** for desktop, tablet, and mobile  
 - **Persistent storage** in PostgreSQL  
 
@@ -120,3 +120,4 @@ Includes:
 ## 📜 License
 
 This project is licensed under the MIT License.
+
