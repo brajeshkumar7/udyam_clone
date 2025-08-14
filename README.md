@@ -1,7 +1,7 @@
 # Udyam Registration Form Clone
 
 A full-stack web application that replicates the first two steps of the **Udyam Registration** process with responsive UI, backend validation, and web scraping.  
-The project is **live deployed on Render**.
+
 
 ---
 
@@ -14,7 +14,6 @@ It includes:
 - **Scraping**: Puppeteer-based extraction of field names, validation rules, and dropdowns from the official site.
 - **Backend**: REST API for validating and storing form data.
 - **Testing**: Jest-based unit tests for validation and API endpoints.
-- **Deployment**: Hosted live on Render.
 
 ---
 
@@ -36,8 +35,6 @@ It includes:
 **Testing**  
 - Jest for unit tests (form validation & API endpoints)  
 
-**Deployment**  
-- Frontend + Backend deployed on **Render**  
 
 ---
 
@@ -57,27 +54,24 @@ It includes:
 
 ```
 .
-├── frontend/        # React application
-├── backend/         # Node.js + Express server
-├── scraping/        # Puppeteer scripts
-├── tests/           # Jest test cases
+├── frontend/tests/        # React application, # Jest test cases
+├── backend/ scraping/, tests/         # Node.js + Express server, # Puppeteer scripts, # Jest test cases        
 └── README.md
 ```
 
 ---
 
-## 🚀 Live Demo
-
-**🔗 [View the Live Application on Render](https://your-live-app-url-here.com)**
-
----
 
 ## 🧪 Testing
 
 Run all tests:
 
 ```bash
-npm run test
+cd frontend
+npm test
+
+cd backend
+npm text
 ```
 
 Includes:
@@ -90,7 +84,7 @@ Includes:
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/yourusername/udyam-clone.git
+   git clone https://github.com/brajeshkumar7/udyam-clone.git
    cd udyam-clone
    ```
 
@@ -105,9 +99,10 @@ Includes:
    DATABASE_URL=postgresql://user:password@localhost:5432/dbname
    ```
 
-4. **Run scraping script** (optional)
+4. **Run scraping script**
    ```bash
-   node scraping/scraper.js
+   cd backend
+   node scapeForm.js
    ```
 
 5. **Run development servers**
@@ -117,7 +112,7 @@ Includes:
 
 6. **Open in browser**
    ```
-   http://localhost:3000
+   http://localhost:4000
    ```
 
 ---
