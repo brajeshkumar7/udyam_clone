@@ -21,7 +21,7 @@ It includes:
 
 **Frontend**  
 - React (with hooks & functional components)  
-- Responsive design (mobile-first)  
+- Responsive design (mobile-first) using tailwind css  
 - Real-time validation  
 
 **Backend**  
