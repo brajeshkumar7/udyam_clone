@@ -11,7 +11,7 @@
     "dev": "node index.js",
     "test": "jest --watchAll",
     "test:once": "jest",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate --no-engine"
   },
   "dependencies": {
     "@prisma/client": "^6.14.0",
