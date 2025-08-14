@@ -12,7 +12,8 @@
     "test": "jest --watchAll",
     "test:once": "jest",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate --schema=backend/prisma/schema.prisma"
+
   },
   "dependencies": {
     "@prisma/client": "^6.14.0",
