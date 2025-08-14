@@ -71,7 +71,7 @@ cd frontend
 npm test
 
 cd backend
-npm text
+npm test
 ```
 
 Includes:
