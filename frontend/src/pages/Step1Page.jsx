@@ -13,7 +13,7 @@ export default function Step1Page({ schema, formData, setFormData }) {
 
         // 1. First validate adhar from backend
         try {
-            const validateRes = await fetch("http://localhost:4000/validate", {
+            const validateRes = await fetch(import.meta.env.MODE === 'development' ? 'http://localhost:4000/validate' : '/validate', {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -53,3 +53,4 @@ export default function Step1Page({ schema, formData, setFormData }) {
         </>
     );
 }
+
