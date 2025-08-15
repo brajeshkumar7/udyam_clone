@@ -1,6 +1,7 @@
 import { PrismaClient } from "@prisma/client";
+import { withAccelerate } from '@prisma/extension-accelerate'
 
-const prisma = new PrismaClient();
+const prisma = new PrismaClient().$extends(withAccelerate())
 export const submitForm = async (req, res) => {
     try {
         const { aadhaarNumber, panNumber, pinCode, city, state } = req.body;
@@ -12,4 +13,5 @@ export const submitForm = async (req, res) => {
         console.error(err);
         res.status(500).json({ error: "Database insert failed" });
     }
+
 };
