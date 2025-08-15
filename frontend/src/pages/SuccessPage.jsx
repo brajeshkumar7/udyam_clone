@@ -10,7 +10,7 @@ export default function SuccessPage() {
         window.onpopstate = function () {
             window.history.go(1);
         };
-        setTimeout(() => navigate("/"), 7000);
+        setTimeout(() => navigate("/"), 5000);
     }, []);
     return (<>
         <ProgressBar currentStep={2} steps={["Step 1", "Step 2", "Success"]} />
@@ -27,3 +27,4 @@ export default function SuccessPage() {
     </>
     );
 }
+
