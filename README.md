@@ -1,7 +1,7 @@
 # Udyam Registration Form Clone
 
 A full-stack web application that replicates the first two steps of the **Udyam Registration** process with responsive UI, backend validation, and web scraping.  
-
+The project is **live deployed on Render**.
 
 ---
 
@@ -33,7 +33,10 @@ It includes:
 - Puppeteer for automated field and validation rule extraction  
 
 **Testing**  
-- Jest for unit tests (form validation & API endpoints)  
+- Jest for unit tests (form validation & API endpoints)
+
+**Deployment**  
+- Frontend + Backend deployed on **Render** 
 
 
 ---
@@ -44,7 +47,7 @@ It includes:
 - **Real-time validation** for Aadhaar & PAN formats  
 - **Dynamic rendering** of form fields from scraped schema  
 - **Progress tracker** for step navigation  
-- **PIN code-based city/state autofill**
+- **Optional PIN code-based city/state autofill**  
 - **Full responsiveness** for desktop, tablet, and mobile  
 - **Persistent storage** in PostgreSQL  
 
@@ -61,6 +64,11 @@ It includes:
 
 ---
 
+## 🚀 Live Demo
+
+**🔗 [View the Live Application on Render](https://udyam-clone01.onrender.com)**
+
+---
 
 ## 🧪 Testing
 
@@ -120,4 +128,3 @@ Includes:
 ## 📜 License
 
 This project is licensed under the MIT License.
-
