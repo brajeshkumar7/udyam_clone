@@ -5,6 +5,12 @@ The project is **live deployed on Render**.
 
 ---
 
+## 🚀 Live Demo
+
+**🔗 [View the Live Application on Render](https://udyam-clone-xh58.onrender.com)**
+
+---
+
 ## 📌 Project Overview
 
 This application mimics **Step 1 (Aadhaar + OTP Validation)** and **Step 2 (PAN Validation)** from the [Udyam Registration Portal](https://udyamregistration.gov.in/UdyamRegistration.aspx).  
@@ -61,12 +67,6 @@ It includes:
 ├── backend/ scraping/, tests/         # Node.js + Express server, # Puppeteer scripts, # Jest test cases        
 └── README.md
 ```
-
----
-
-## 🚀 Live Demo
-
-**🔗 [View the Live Application on Render](https://udyam-clone-xh58.onrender.com)**
 
 ---
 
@@ -128,4 +128,5 @@ Includes:
 ## 📜 License
 
 This project is licensed under the MIT License.
+
 
